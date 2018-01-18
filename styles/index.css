@@ -1,0 +1,116 @@
+/* orange - #ff8e20 */
+
+/* brown - #46240d */
+
+/* yellow - #ff8c20 */
+
+/* GENERAL STYLING */
+
+body {
+  font-family: serif;
+  color: black;
+}
+
+/* HEADER */
+
+#header {
+  text-align: center;
+  line-height: 10px;
+}
+
+#header .image {
+  text-align: right;
+}
+
+#header .text {
+  text-align: left;
+  color: #46240d;
+}
+
+#header h1 {
+  font-weight: bolder;
+  font-size: 10vh;
+}
+
+/* NAVBAR */
+
+.navbar-default {
+  background-color: #ff8e20;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+}
+
+.navbar-nav>li {
+  float: none;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  width: 70%;
+}
+
+/* LANDING PAGE */
+
+#landing-page {
+  background: url("../images/DSC_0137.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30vh;
+}
+
+.landing-page-text {
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+  padding: 2vh;
+  width: 80vh;
+  margin-left: 30vh;
+}
+
+/* BODY */
+
+.promote-ecomomic, .bringing-hope {
+  text-align: center;
+}
+
+.promote-ecomomic-text {
+  padding-top: 15vh;
+}
+
+.bringing-hope-text {
+  padding-top: 5vh;
+}
+
+.image-1 img {
+  width: 100%;
+}
+
+/* DONATE */
+
+#donate {
+  background-color: #ff8e20;
+  padding: 2vh 0;
+}
+
+.donate-button button {
+  background-color: #ffbc20;
+  border: 0;
+  padding: 20px 30px;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+/* FOTTER */
+
+#footer {
+  background-color: #46240d;
+  color: white;
+}
